@@ -1,15 +1,15 @@
 {
-  "name": "hn-node-template",
-  "version": "1.0.0",
+  "name": "smart-auto-assign",
+  "version": "0.1.0",
   "engines": {
     "node": ">=12.18.3"
   },
-  "description": "Template for HN node applications.",
+  "description": "Auto assign reviewers and assignees with options",
   "private": true,
-  "bin": "src/app.js",
-  "main": "src/app.js",
+  "bin": "src/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/app.js",
+    "start": "nodemon src/index.js",
     "test": "mocha",
     "coverage": "nyc mocha --global __coverage__",
     "lint": "eslint .",
